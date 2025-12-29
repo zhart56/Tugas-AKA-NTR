@@ -77,7 +77,9 @@ source venv/bin/activate
 
 ### 3. Instal Dependensi
 Proyek ini memerlukan library untuk visualisasi grafik (Matplotlib). Instal dengan perintah:
+```bash
 pip install matplotlib
+```
 
 ---  
 
