@@ -46,6 +46,42 @@ Berdasarkan pengujian dengan input $N$ dari $10^0$ hingga $10^4$:
 
 ---
 
+## ⚙️ Persiapan Lingkungan (Installation & Setup)
+
+Sebelum menjalankan program, disarankan untuk menggunakan **Virtual Environment** agar dependensi proyek tidak tercampur dengan sistem global.
+
+### 1. Buat Virtual Environment
+Buka terminal/CMD di folder proyek, lalu jalankan perintah berikut:
+
+```bash
+# Windows
+python -m venv venv
+
+# macOS / Linux
+python3 -m venv venv
+```
+
+### 2. Aktifkan Virtual Environment
+Setelah berhasil dibuat, aktifkan lingkungan tersebut:
+
+```bash
+# Windows (Command Prompt)
+venv\Scripts\activate
+
+# Windows (PowerShell)
+.\venv\Scripts\Activate.ps1
+
+# macOS / Linux
+source venv/bin/activate
+```
+
+### 3. Instal Dependensi
+Proyek ini memerlukan library untuk visualisasi grafik (Matplotlib). Instal dengan perintah:
+pip install matplotlib
+
+---  
+
+
 ## 🛠️ Cara Menjalankan Program
 
 Pastikan Anda telah menginstal **Python 3.x**.
